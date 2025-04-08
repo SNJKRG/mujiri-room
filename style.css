@@ -1,0 +1,519 @@
+.mina-regular {
+    font-family: "Mina", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .mina-bold {
+    font-family: "Mina", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .montserrat-alternates-thin {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-extralight {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-light {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-medium {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-semibold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-bold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-extrabold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-black {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .montserrat-alternates-thin-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-extralight-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-light-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-regular-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-medium-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-semibold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-bold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-extrabold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .montserrat-alternates-black-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #252422;
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;   
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 41px;
+    padding-bottom: 22px;
+    background-color: inherit;
+    color: #FFFCF2;
+    align-items: center;
+}
+
+nav a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav p{
+    font-family: Mina;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 465px;
+    margin: 0 auto;
+}
+
+.logotype{
+  font-family: Mina;
+  margin-left: 16px;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+
+
+nav ul li{
+    font-family: Montserrat Alternates;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFCF2;
+}
+
+.main-page .logo{
+    height: 100%;
+    width: 674px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-page h1{
+    font-family: Mina;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 46px auto;
+}
+
+.main-page h2{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+    align-self: flex-start;
+}
+
+
+.contact-info {
+  max-width: 796px;
+  height: 572px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #CCC5B9;
+  margin: 0 auto;
+}
+
+
+.contact-info h3{
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 145px;
+  background-image: url('assets/main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-content{
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.first-info h2{ 
+  margin-left: 239px;
+  font-family: Montserrat Alternates;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.first-info h5{
+  max-width: 731px;
+  margin-top: 60px;
+  margin-left: 407px;
+  font-family: Montserrat Alternates;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFCF2;
+}
+
+.second-info h5{
+  font-family: Montserrat Alternates;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  max-width: 576px;
+  top: 607px;
+  left: 730px;
+  position: absolute;
+  color: #FFFCF2;
+}
+
+.horizontal-line {
+  width: 435px;
+  border: 11px solid #CCC5B9;
+  z-index: 10;
+  left: 79px;
+  position: absolute;
+}
+
+.vertical-line {
+  position: absolute;
+  z-index: 5;
+  width: 2px;
+  height: 243px;
+  background-color: #FFFCF2;
+  top: 136px;
+  left: 469px;
+}
+
+.horizontal-line-2{
+  width: 435px;
+  border-top: 2px solid #FFFCF2;
+  z-index: 10;
+  left: 319px;
+  top: 600px;
+  position: absolute;
+}
+
+.vertical-line-2{
+  background-color: #FFFCF2;
+  height: 141px;
+  border-top: 11px solid #CCC5B9;
+  z-index: 10;
+  left: 620px;
+  top: 600px;
+  position: absolute;
+}
+
+
+.spaced{
+  margin-top: 16px !important;
+}
+
+.slider-content{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  position: relative;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  position: relative;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s ease;
+  gap: 17px
+}
+
+#first-image {
+  margin-left: 40vw;
+}
+
+.wrapper img {
+  width: 100%;
+  max-width: 26.857vw;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0; 
+  cursor: pointer; 
+  transition: opacity 0.5s ease;
+}
+
+.pagination{
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.pagination button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #403D39;
+  cursor: pointer;
+}
+
+
+.pagination button.active {
+  background-color: #EB5E28; 
+}
+
+.opacity-03 {
+  opacity: 0.3;
+}
+
+@media only screen and (orientation: portrait) {
+  nav{
+    margin-bottom: 104px;
+  }
+  nav p{
+    display: none;
+  }
+  nav ul{
+    max-width: 250px;
+  }
+  nav ul li{
+    font-size: 12px;
+  }
+  .logotype{
+    font-size: 14px;
+    margin-left: 26px;
+  }
+  .main-page{
+    background-image: url('assets/mobile.png');
+  }
+  .main-page .logo{
+    width: 38vw;
+}
+  .main-page h1{
+    font-size: 48px;
+    margin-bottom: 13px;
+  }
+  .main-page h2{
+    font-size: 12px;
+  }
+  .contact-info {
+    height: 30vh;
+    max-width: 315px;
+  }
+  .contact-info h3{
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  footer{
+    position: absolute;
+    height: 343px !important;
+    background-image: url('assets/footer-m.png');
+  }
+  .first-info h2{ 
+    position: absolute;
+    font-size: 12px;
+    width: 66;
+    top: 198px;
+    left: 47px;
+  }
+  
+  .first-info h5{
+    max-width: 170px;
+    position: absolute;
+    font-size: 12px;
+    top: 231px;
+    left: 133px;
+
+  }
+  
+  .second-info h5{
+    max-width: 142px;
+    position: absolute;
+    font-size: 12px;
+    top: 586px;
+    left: 192px;
+  }
+
+  .horizontal-line{
+    width: 107;
+    top: 218px;
+    left: 26px;
+    border: 3px solid #CCC5B9;
+  }
+  
+  .vertical-line {
+    top: 198px;
+    left: 118px;
+    width: 1px;
+  }
+
+  .horizontal-line-2{
+    width: 79px;
+    border: 1px solid #CCC5B9;
+    top: 568px;
+    left: 118px;
+  }
+
+  .vertical-line-2{
+    height: 185px;
+    top: 542px;
+    left: 177px;
+    width: 3px;
+  }
+
+  .wrapper img {
+    max-width: 80vw;
+    height: auto;
+  }
+
+  .pagination{
+    margin-top: 126px;
+  }
+  #first-image{
+    margin-left: 9.6vw;
+  }
+
+  .spaced{
+    top: 422px !important;
+  }
+}
