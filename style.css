@@ -437,7 +437,7 @@ footer{
     font-size: 12px;
   }
   .contact-info {
-    height: 30vh;
+    height: 70vh;
     max-width: 315px;
   }
   .contact-info h3{
@@ -449,56 +449,55 @@ footer{
     height: 343px !important;
     background-image: url('assets/footer-m.png');
   }
+
   .first-info h2{ 
     position: absolute;
-    font-size: 12px;
-    width: 66;
-    top: 198px;
-    left: 47px;
+    font-size: 3.05vw;
+    top: 23.24vh;
+    left: 11.96vw;
   }
   
   .first-info h5{
-    max-width: 170px;
+    max-width: 43.26vw;
     position: absolute;
-    font-size: 12px;
-    top: 231px;
-    left: 133px;
-
+    font-size: 3.05vw;
+    top: 27.11vh;
+    left: 33.85vw;
   }
   
   .second-info h5{
-    max-width: 142px;
+    max-width: 36.1vw;
     position: absolute;
-    font-size: 12px;
-    top: 586px;
-    left: 192px;
+    font-size: 3.05vw;
+    top: 69vh;
+    left: 48.8vw;
   }
 
   .horizontal-line{
-    width: 107;
-    top: 218px;
-    left: 26px;
-    border: 3px solid #CCC5B9;
+    width: 27.23vw;
+    top: 25.58vh;
+    left: 6.62vw;
+    border: 0.76vw solid #CCC5B9;
   }
   
   .vertical-line {
-    top: 198px;
-    left: 118px;
-    width: 1px;
+    top: 23.24vh;
+    left: 30.03vw;
+    width: 0.25vw;
   }
 
   .horizontal-line-2{
-    width: 79px;
-    border: 1px solid #CCC5B9;
-    top: 568px;
-    left: 118px;
+    width: 20.1vw;
+    border: 0.25vw solid #CCC5B9;
+    top: 66.67vh;
+    left: 30.03vw;
   }
 
   .vertical-line-2{
-    height: 185px;
-    top: 542px;
-    left: 177px;
-    width: 3px;
+    height: 21.72vh;
+    top: 63.62vh;
+    left: 45.04vw;
+    width: 0.76vw;
   }
 
   .wrapper img {
@@ -507,7 +506,7 @@ footer{
   }
 
   .pagination{
-    margin-top: 126px;
+    margin-top: 10vh;
   }
   #first-image{
     margin-left: 9.6vw;
