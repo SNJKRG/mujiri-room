@@ -455,15 +455,16 @@ footer{
     font-size: 12px;
   }
   .contact-info {
-    height: 70vh;
+    height: 30vh;
     max-width: 315px;
   }
   .contact-info h3{
     margin-bottom: 16px;
     font-size: 14px;
   }
+
   footer{
-    position: absolute;
+    position: relative;
     height: 343px !important;
     background-image: url('assets/footer-m.png');
   }
