@@ -455,6 +455,7 @@ footer{
     font-size: 3.05vw;
     top: 23.24vh;
     left: 11.96vw;
+    margin: 0;
   }
   
   .first-info h5{
@@ -463,6 +464,7 @@ footer{
     font-size: 3.05vw;
     top: 27.11vh;
     left: 33.85vw;
+    margin: 0;
   }
   
   .second-info h5{
@@ -511,8 +513,7 @@ footer{
   #first-image{
     margin-left: 9.6vw;
   }
-
   .spaced{
-    top: 422px !important;
+    top: 80vw !important;
   }
 }
