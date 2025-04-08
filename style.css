@@ -209,7 +209,12 @@ nav ul li{
     line-height: 100%;
     letter-spacing: 0%;
     margin: 46px auto;
+    opacity: 0;
+    overflow: hidden;          
+    white-space: nowrap;  
+    animation: fadeType 2s forwards;
 }
+
 
 .main-page h2{
     font-family: Montserrat Alternates;
@@ -219,8 +224,11 @@ nav ul li{
     letter-spacing: 0%;
     margin: 0;
     align-self: flex-start;
+    opacity: 0;
+    overflow: hidden;          
+    white-space: nowrap;  
+    animation: fadeType 1s 1s forwards;
 }
-
 
 .contact-info {
   max-width: 796px;
@@ -405,6 +413,16 @@ footer{
 .opacity-03 {
   opacity: 0.3;
 }
+
+@keyframes fadeType {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 @media only screen and (orientation: portrait) {
   nav{
